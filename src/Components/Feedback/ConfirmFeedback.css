@@ -1,0 +1,21 @@
+.feedback-confirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.feedback-confirmation button {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.feedback-confirmation button:hover{
+    background-color: #2f8832; 
+}

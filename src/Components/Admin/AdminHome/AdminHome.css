@@ -1,0 +1,53 @@
+
+.panel-box{
+  margin-top: 150px;
+}
+.panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.admin-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .admin-panel h2 {
+    text-align: center; 
+    color: #333;
+  }
+  
+  .admin-panel ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-panel li {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+  }
+  .admin-panel a{
+    text-decoration: none;
+  }
+  
+  .admin-panel li:hover {
+    background-color: #45a049;
+  }
+  

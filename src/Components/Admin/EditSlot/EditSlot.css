@@ -1,0 +1,66 @@
+/* Slots.css */
+.slots {
+    margin: 1em;
+    margin-top: 100px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .slot-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .slot-header h2{
+    font-size: 26px;
+  }
+  
+  .slots button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .slots .add-button {
+    margin-bottom: 1em;
+  }
+  
+  .slots .slot {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .slots .edit-button {
+    margin-right: 1em;
+  }
+  
+  .slots .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+
+  .add-slot{
+    margin: 3rem 0;
+    font-size: 16PX;
+    width: 100%;
+    text-align: left;
+  }
+
+  .add-slot input{
+    padding: 10px 20px;
+    width: 80%;
+    outline: none;
+  }
+
+  .add-slot form{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }

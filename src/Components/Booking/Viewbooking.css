@@ -1,0 +1,78 @@
+ .bookings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .booking {
+    
+    width: 80%;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px; 
+    text-align: left;
+    
+
+  }
+  .booking h1{
+    font-size: 14px;
+  }
+
+  .booking-date-box{
+
+    display: flex;
+    justify-content: start;
+    gap: 5rem;
+
+  }
+   
+  .booking-box-service-card{
+
+    border-radius: 5px;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 1rem ;
+    margin-top: 1rem;
+  }
+
+  .booking-box-service-card div h3{
+
+    font-size: 14px;
+  
+  }
+  .booking-box-service-card div p{
+
+    font-size: 12px;
+  
+  }
+  .booking-box-service-card div .price{
+
+    font-size: 16px;
+    font-weight: bold;
+  
+  }
+
+
+  .booking-card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .booking-card-header button{
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+  }
+
+  /* .booking-card-edit-btn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+  } */
